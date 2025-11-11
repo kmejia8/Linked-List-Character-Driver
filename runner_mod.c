@@ -24,7 +24,7 @@ record time) saved in a linked list in the kernel.
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Karla Mejia");
-MODULE_DESCRIPTION("Runned Linked List Character Device");
+MODULE_DESCRIPTION("Runners Linked List Character Device");
 MODULE_VERSION("1.1");
 
 // allowing up to 100 characters for runner's name and school
@@ -214,4 +214,5 @@ static void __exit runners_exit(void)
 
 module_init(runners_init); // for insmod
 module_exit(runners_exit); // for rmmod
+
 // :)
